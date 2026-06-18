@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.cover {
+    background: linear-gradient(to right, #1d3557, #2b2d73);
+    color: white;
+    text-align: center;
+    padding: 80px 20px 180px;
+}
+
+.cover h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cover h2 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #d8d8d8;
+}
+
+.pricing-container {
+    width: 1000px;
+    margin: -100px auto 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 280px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    background: #4b5163;
+    color: white;
+    padding: 15px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card.selected {
+    border: 3px solid #00a8ff;
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 168, 255, 0.35);
+}
+
+.card-header h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.badge {
+    font-size: 12px;
+}
+
+.price {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.currency {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.number {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.month {
+    color: gray;
+}
+
+.card hr {
+    width: 80%;
+    margin: auto;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.features {
+    padding: 25px 30px;
+}
+
+.features p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.card button {
+    display: block;
+    margin: 0 auto 30px;
+    background: #00a8ff;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.card button:hover {
+    background: #0089d6;
+}
+
+.footer h1 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #444;
+}
+
+.footer-content {
+    width: 1000px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.footer-content div {
+    flex: 1;
+    max-width: 420px;
+}
+
+.footer-content h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #888;
+}
